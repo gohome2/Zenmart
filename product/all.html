@@ -1,0 +1,1341 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zenmart</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../public/css/command.css " />
+    <link rel="stylesheet" href="../public/css/product_all.css" />
+  </head>
+  <body>
+    <div class="navbar_frame">
+      <div class="container">
+        <div class="navbar_top">
+          <a href="../index.html">
+            <img src="../public/images/icons/logo.png" alt="" />
+          </a>
+
+          <div class="nav_search_frame">
+            <div class="search_box">
+              <div class="category_list">
+                <select name="" id="">
+                  <option value="all">All categories</option>
+                  <option value="computer">Computer</option>
+                </select>
+              </div>
+              <input type="text" placeholder="Search products..." />
+            </div>
+            <div class="search_icon_box">
+              <img src="../public/images/icons/search.svg" alt="" />
+            </div>
+          </div>
+          <div class="nav_top_menu">
+            <a href="../order/card.html">
+              <div class="top_menu_box">
+                <div class="box_icon_box">
+                  <img src="../public/images/icons/heart.svg" alt="" />
+                </div>
+                <div class="box_info_box">
+                  <span>Wishlist</span>
+                  <strong>My Items</strong>
+                </div>
+              </div>
+            </a>
+            <a href="../other/login.html">
+              <div class="top_menu_box">
+                <div class="box_icon_box">
+                  <img src="../public/images/icons/profile.svg" alt="" />
+                </div>
+                <div class="box_info_box">
+                  <span>Sign In</span>
+                  <strong>Account</strong>
+                </div>
+              </div>
+            </a>
+            <a href="../order/card.html">
+              <div class="top_menu_box">
+                <div class="box_icon_box">
+                  <div class="basket_count">2</div>
+                  <img src="../public/images/icons/shopping-cart.svg" alt="" />
+                </div>
+                <div class="box_info_box">
+                  <span>$200.99</span>
+                  <strong>Total</strong>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="navbar_bott">
+          <div class="navbar_bott_menu_box">
+            <div class="browse_box">
+              <img src="../public/images/icons/browse.svg" alt="" />
+              <span>Browse Categories</span>
+            </div>
+
+            <div class="navbar_route_menu">
+              <a href="/index.html">Home</a>
+              <a class="title" href="./product/all.html">Shop</a>
+              <a href="../order/card.html">Orders</a>
+              <a href="../other/about.html">About</a>
+              <a href="../other/contact.html">Contact</a>
+            </div>
+
+            <div class="sorting_menu">
+              <span>Deal of the Day</span>
+              <span>Hot Deals</span>
+              <span>Best Sellers</span>
+              <span>New Arrivals</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="shop_page">
+      <div class="category_top_frame">
+        <div class="container">
+          <div>All Electronics</div>
+          <div>Smart TV</div>
+          <div>Laptops</div>
+          <div>Laptops</div>
+          <div>Cell Phones</div>
+          <div>Camera & Photo</div>
+          <div>Portable Audio</div>
+          <div>Computers</div>
+          <div>iPad & Tablets</div>
+          <div>Pc Gaming</div>
+          <div>Smart Home</div>
+          <div>Headphones</div>
+        </div>
+      </div>
+      <div class="page_router">
+        <span>Home</span>
+        <span class="drop">/</span>
+        <span>Electronics</span>
+        <span class="drop">/</span>
+        <span>Computers</span>
+        <span class="drop">/</span>
+        <span>Desctop Computers</span>
+      </div>
+      <div class="header_frame">
+        <div class="container">
+          <div class="header_content">
+            <p>Save up to $130 on select laptops.</p>
+            <span
+              >All kind of products in one place. Starts from $1. Get cashbacks
+              & offers</span
+            >
+            <a href="">Shop Deals</a>
+          </div>
+          <div class="product_pagination">
+            <div class="pagination_box">
+              <div class="pagination_main">
+                <img src="../public/images/icons/arrow-prev_next.svg" alt="" />
+                <div class="pagination_dot">
+                  <div class="dot">
+                    <div></div>
+                  </div>
+                  <div class="dot">
+                    <div></div>
+                  </div>
+                  <div class="dot active">
+                    <div></div>
+                  </div>
+                  <div class="dot">
+                    <div></div>
+                  </div>
+                  <div class="dot">
+                    <div></div>
+                  </div>
+                </div>
+                <img
+                  src="../public/images/icons/arrow-prev_next.svg"
+                  alt=""
+                  style="transform: scaleX(-1)"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="shop_category_frame">
+        <div class="container">
+          <div class="category_top">
+            <span>Shop category</span>
+            <a href="./product/all.html">View All Categories</a>
+          </div>
+          <div class="category_wrapper">
+            <div class="category_box">
+              <div class="category_img_box">
+                <img src="../public/images/category/tv.png" alt="" />
+              </div>
+              <span>TVs, Home Theatre, and Accessories</span>
+            </div>
+            <div class="category_box">
+              <div class="category_img_box">
+                <img src="../public/images/category/computer.png" alt="" />
+              </div>
+              <span>Computers, Tablets, and Accessories</span>
+            </div>
+            <div class="category_box">
+              <div class="category_img_box">
+                <img src="../public/images/category/smart.png" alt="" />
+              </div>
+              <span>Smart Home</span>
+            </div>
+            <div class="category_box">
+              <div class="category_img_box">
+                <img src="../public/images/category/headphone.png" alt="" />
+              </div>
+              <span>Headphones and Portable Speakers</span>
+            </div>
+            <div class="category_box">
+              <div class="category_img_box">
+                <img src="../public/images/category/phone.png" alt="" />
+              </div>
+              <span>Cell Phones and Accessories</span>
+            </div>
+            <div class="category_box">
+              <div class="category_img_box">
+                <img src="../public/images/category/game.png" alt="" />
+              </div>
+              <span>Video Games, Consoles, and Accessories</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="brands_frame">
+        <div class="container">
+            <div class="brands_title">
+                <span>Shop by brand</span>
+            </div>
+            <div class="brands_wrapper">
+                <div class="brands_box active">Apple</div>
+                <div class="brands_box">Dell</div>
+                <div class="brands_box">Hp</div>
+                <div class="brands_box">Lenovo</div>
+                <div class="brands_box">Samsung</div>
+                <div class="brands_box">Asus</div>
+                <div class="brands_box">Acer</div>
+                <div class="brands_box">Sony</div>
+            </div>
+        </div>
+      </div>
+      <div class="top_producs_frame">
+        <div class="container">
+            <div class="top_products_top">
+                <span>Top Selling Products</span>
+                <div class="product_pagination">
+            <div class="pagination_box">
+              <div class="pagination_main">
+                <img src="../public/images/icons/arrow-prev_next.svg" alt="" />
+                <div class="pagination_dot">
+                  <div class="dot">
+                    <div></div>
+                  </div>
+                  <div class="dot">
+                    <div></div>
+                  </div>
+                  <div class="dot active">
+                    <div></div>
+                  </div>
+                  <div class="dot">
+                    <div></div>
+                  </div>
+                  <div class="dot">
+                    <div></div>
+                  </div>
+                </div>
+                <img
+                  src="../public/images/icons/arrow-prev_next.svg"
+                  alt=""
+                  style="transform: scaleX(-1)"
+                />
+              </div>
+            </div>
+          </div>
+            </div>
+            <div class="top_products_bottom">
+              <div class="product_wrapper">
+                <div class="product_boxes">
+                  <div class="product_box">
+                <a href="./choosenProduct.html">
+                  <div
+                    class="product_image_box"
+                    style="
+                      background: url(../public/images/products/acer_laptop.png);
+                      background-size: cover;">
+                    <div class="hover_box">
+                      <button>Add to Cart</button>
+                    </div>
+                  </div>
+                </a>
+                <div class="product_content_box">
+                  <span class="product_title">Acer</span>
+                  <a href="">
+                    <p class="product_desc">
+                      Acer Aspire 5 15.6" Laptop - Silver (Intel Core i7-1165G7/512GB SSD/12GB RAM/Windows 11)
+                    </p>
+                  </a>
+                  <div class="review_box">
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <span>3,014 reviews</span>
+                  </div>
+                  <div class="price_box">
+                    <strong>$32.50</strong>
+                    <span>$45</span>
+                  </div>
+                </div>
+                  </div>
+                  <div class="product_box">
+                <a href="./choosenProduct.html">
+                  <div
+                    class="product_image_box"
+                    style="
+                      background: url(../public/images/products/nitro_laptop.png);
+                      background-size: cover;">
+                    <div class="hover_box">
+                      <button>Add to Cart</button>
+                    </div>
+                  </div>
+                </a>
+                <div class="product_content_box">
+                  <span class="product_title">Acer</span>
+                  <a href="">
+                    <p class="product_desc">
+                      Acer Nitro 5 15.6" Gaming Laptop - Black (Intel Core i5-10300H/512GB SSD/12GB RAM/GTX 1650/Windows 11)
+                    </p>
+                  </a>
+                  <div class="review_box">
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <span>3,014 reviews</span>
+                  </div>
+                  <div class="price_box">
+                    <strong>$32.50</strong>
+                    <span>$45</span>
+                  </div>
+                </div>
+                  </div>
+                  <div class="product_box">
+                <a href="./choosenProduct.html">
+                  <div
+                    class="product_image_box"
+                    style="
+                      background: url(../public/images/products/sony_laptop.png);
+                      background-size: cover;">
+                    <div class="hover_box">
+                      <button>Add to Cart</button>
+                    </div>
+                  </div>
+                </a>
+                <div class="product_content_box">
+                  <span class="product_title">Microsoft</span>
+                  <a href="">
+                    <p class="product_desc">
+                      Microsoft Surface Laptop Go 12.4" Multi-Touch - Intel Core i5, 8GB RAM, 128GB SSD, Windows 10 Home in S Mode - Certified Refurbished
+                    </p>
+                  </a>
+                  <div class="review_box">
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <span>3,014 reviews</span>
+                  </div>
+                  <div class="price_box">
+                    <strong>$32.50</strong>
+                    <span>$45</span>
+                  </div>
+                </div>
+                  </div>
+                  <div class="product_box">
+                <a href="./choosenProduct.html">
+                  <div
+                    class="product_image_box"
+                    style="
+                      background: url(../public/images/products/acer_silver.png);
+                      background-size: cover;">
+                    <div class="hover_box">
+                      <button>Add to Cart</button>
+                    </div>
+                  </div>
+                </a>
+                <div class="product_content_box">
+                  <span class="product_title">Acer</span>
+                  <a href="">
+                    <p class="product_desc">
+                      Acer Aspire 5 15.6" Laptop - Silver (Intel Core i5-1135G7/512GB SSD/8GB RAM/Windows 11)
+                    </p>
+                  </a>
+                  <div class="review_box">
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <span>3,014 reviews</span>
+                  </div>
+                  <div class="price_box">
+                    <strong>$32.50</strong>
+                    <span>$45</span>
+                  </div>
+                </div>
+                  </div>
+                  <div class="product_box">
+                <a href="./choosenProduct.html">
+                  <div
+                    class="product_image_box"
+                    style="
+                      background: url(../public/images/products/asus_laptop.png);
+                      background-size: cover;">
+                    <div class="hover_box">
+                      <button>Add to Cart</button>
+                    </div>
+                  </div>
+                </a>
+                <div class="product_content_box">
+                  <span class="product_title">Asus</span>
+                  <a href="">
+                    <p class="product_desc">
+                      ASUS VivoBook 15 X515 15.6" Laptop - Slate Grey (Intel Core i3-1005G1/256GB SSD/8GB RAM/Win 11 S)
+                    </p>
+                  </a>
+                  <div class="review_box">
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <span>3,014 reviews</span>
+                  </div>
+                  <div class="price_box">
+                    <strong>$32.50</strong>
+                    <span>$45</span>
+                  </div>
+                </div>
+                  </div>
+                  <div class="product_box">
+                <a href="./choosenProduct.html">
+                  <div
+                    class="product_image_box"
+                    style="
+                      background: url(../public/images/products/rolex_laptop.png);
+                      background-size: cover;">
+                    <div class="hover_box">
+                      <button>Add to Cart</button>
+                    </div>
+                  </div>
+                </a>
+                <div class="product_content_box">
+                  <span class="product_title">Asus</span>
+                  <a href="">
+                    <p class="product_desc">
+                      ASUS ROG Strix G15 15.6" Gaming Laptop (AMD Ryzen 7 4800H/512GB SSD/16GB RAM/GeForce RTX 3050/Win 11)
+                    </p>
+                  </a>
+                  <div class="review_box">
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <span>3,014 reviews</span>
+                  </div>
+                  <div class="price_box">
+                    <strong>$32.50</strong>
+                    <span>$45</span>
+                  </div>
+                </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="all_products_frame">
+        <div class="container">
+            <div class="all_products_title">
+                <div class="title_top">
+                    <span>Laptops and Accessories</span>
+                    <p>Shop laptops, desktops, monitors, tablets, PC gaming, hard drives and storage, accessories and more</p>
+                </div>
+                <div class="filter_boxes">
+                        <!-- <span>Price</span> -->
+                        <select name="" id="">
+                            <option class="check" value="" selected disabled>Price</option>
+                            <option value="">300$</option>
+                            <option value="">700$</option>
+                            <option value="">1200$</option>
+                        </select>
+                        <select name="" id="">
+                            <option class="check" value="" selected disabled>Branad</option>
+                            <option value="">Samsung</option>
+                            <option value="">Acer</option>
+                            <option value="">Sony</option>
+                        </select>
+                        <select name="" id="">
+                            <option class="check" value="" selected disabled>Color</option>
+                            <option value="">Black</option>
+                            <option value="">White</option>
+                            <option value="">Silver</option>
+                        </select>
+                </div>
+            </div>
+            <div class="all_products_bottom">
+              <div class="product_wrapper">
+                <div class="product_boxes">
+                  <div class="product_box">
+                <a href="./choosenProduct.html">
+                  <div
+                    class="product_image_box"
+                    style="
+                      background: url(../public/images/products/acer_laptop.png);
+                      background-size: cover;">
+                    <div class="hover_box">
+                      <button>Add to Cart</button>
+                    </div>
+                  </div>
+                </a>
+                <div class="product_content_box">
+                  <span class="product_title">Acer</span>
+                  <a href="">
+                    <p class="product_desc">
+                      Acer Aspire 5 15.6" Laptop - Silver (Intel Core i7-1165G7/512GB SSD/12GB RAM/Windows 11)
+                    </p>
+                  </a>
+                  <div class="review_box">
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <span>3,014 reviews</span>
+                  </div>
+                  <div class="price_box">
+                    <strong>$32.50</strong>
+                    <span>$45</span>
+                  </div>
+                </div>
+                  </div>
+                  <div class="product_box">
+                <a href="./choosenProduct.html">
+                  <div
+                    class="product_image_box"
+                    style="
+                      background: url(../public/images/products/nitro_laptop.png);
+                      background-size: cover;">
+                    <div class="hover_box">
+                      <button>Add to Cart</button>
+                    </div>
+                  </div>
+                </a>
+                <div class="product_content_box">
+                  <span class="product_title">Acer</span>
+                  <a href="">
+                    <p class="product_desc">
+                      Acer Nitro 5 15.6" Gaming Laptop - Black (Intel Core i5-10300H/512GB SSD/12GB RAM/GTX 1650/Windows 11)
+                    </p>
+                  </a>
+                  <div class="review_box">
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <span>3,014 reviews</span>
+                  </div>
+                  <div class="price_box">
+                    <strong>$32.50</strong>
+                    <span>$45</span>
+                  </div>
+                </div>
+                  </div>
+                  <div class="product_box">
+                <a href="./choosenProduct.html">
+                  <div
+                    class="product_image_box"
+                    style="
+                      background: url(../public/images/products/sony_laptop.png);
+                      background-size: cover;">
+                    <div class="hover_box">
+                      <button>Add to Cart</button>
+                    </div>
+                  </div>
+                </a>
+                <div class="product_content_box">
+                  <span class="product_title">Microsoft</span>
+                  <a href="">
+                    <p class="product_desc">
+                      Microsoft Surface Laptop Go 12.4" Multi-Touch - Intel Core i5, 8GB RAM, 128GB SSD, Windows 10 Home in S Mode - Certified Refurbished
+                    </p>
+                  </a>
+                  <div class="review_box">
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <span>3,014 reviews</span>
+                  </div>
+                  <div class="price_box">
+                    <strong>$32.50</strong>
+                    <span>$45</span>
+                  </div>
+                </div>
+                  </div>
+                  <div class="product_box">
+                <a href="./choosenProduct.html">
+                  <div
+                    class="product_image_box"
+                    style="
+                      background: url(../public/images/products/acer_silver.png);
+                      background-size: cover;">
+                    <div class="hover_box">
+                      <button>Add to Cart</button>
+                    </div>
+                  </div>
+                </a>
+                <div class="product_content_box">
+                  <span class="product_title">Acer</span>
+                  <a href="">
+                    <p class="product_desc">
+                      Acer Aspire 5 15.6" Laptop - Silver (Intel Core i5-1135G7/512GB SSD/8GB RAM/Windows 11)
+                    </p>
+                  </a>
+                  <div class="review_box">
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <span>3,014 reviews</span>
+                  </div>
+                  <div class="price_box">
+                    <strong>$32.50</strong>
+                    <span>$45</span>
+                  </div>
+                </div>
+                  </div>
+                  <div class="product_box">
+                <a href="./choosenProduct.html">
+                  <div
+                    class="product_image_box"
+                    style="
+                      background: url(../public/images/products/asus_laptop.png);
+                      background-size: cover;">
+                    <div class="hover_box">
+                      <button>Add to Cart</button>
+                    </div>
+                  </div>
+                </a>
+                <div class="product_content_box">
+                  <span class="product_title">Asus</span>
+                  <a href="">
+                    <p class="product_desc">
+                      ASUS VivoBook 15 X515 15.6" Laptop - Slate Grey (Intel Core i3-1005G1/256GB SSD/8GB RAM/Win 11 S)
+                    </p>
+                  </a>
+                  <div class="review_box">
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <span>3,014 reviews</span>
+                  </div>
+                  <div class="price_box">
+                    <strong>$32.50</strong>
+                    <span>$45</span>
+                  </div>
+                </div>
+                  </div>
+                  <div class="product_box">
+                <a href="./choosenProduct.html">
+                  <div
+                    class="product_image_box"
+                    style="
+                      background: url(../public/images/products/rolex_laptop.png);
+                      background-size: cover;">
+                    <div class="hover_box">
+                      <button>Add to Cart</button>
+                    </div>
+                  </div>
+                </a>
+                <div class="product_content_box">
+                  <span class="product_title">Asus</span>
+                  <a href="">
+                    <p class="product_desc">
+                      ASUS ROG Strix G15 15.6" Gaming Laptop (AMD Ryzen 7 4800H/512GB SSD/16GB RAM/GeForce RTX 3050/Win 11)
+                    </p>
+                  </a>
+                  <div class="review_box">
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <span>3,014 reviews</span>
+                  </div>
+                  <div class="price_box">
+                    <strong>$32.50</strong>
+                    <span>$45</span>
+                  </div>
+                </div>
+                  </div>
+                  <div class="product_box">
+                <a href="./choosenProduct.html">
+                  <div
+                    class="product_image_box"
+                    style="
+                      background: url(../public/images/products/acer_laptop.png);
+                      background-size: cover;">
+                    <div class="hover_box">
+                      <button>Add to Cart</button>
+                    </div>
+                  </div>
+                </a>
+                <div class="product_content_box">
+                  <span class="product_title">Acer</span>
+                  <a href="">
+                    <p class="product_desc">
+                      Acer Aspire 5 15.6" Laptop - Silver (Intel Core i7-1165G7/512GB SSD/12GB RAM/Windows 11)
+                    </p>
+                  </a>
+                  <div class="review_box">
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <span>3,014 reviews</span>
+                  </div>
+                  <div class="price_box">
+                    <strong>$32.50</strong>
+                    <span>$45</span>
+                  </div>
+                </div>
+                  </div>
+                  <div class="product_box">
+                <a href="./choosenProduct.html">
+                  <div
+                    class="product_image_box"
+                    style="
+                      background: url(../public/images/products/nitro_laptop.png);
+                      background-size: cover;">
+                    <div class="hover_box">
+                      <button>Add to Cart</button>
+                    </div>
+                  </div>
+                </a>
+                <div class="product_content_box">
+                  <span class="product_title">Acer</span>
+                  <a href="">
+                    <p class="product_desc">
+                      Acer Nitro 5 15.6" Gaming Laptop - Black (Intel Core i5-10300H/512GB SSD/12GB RAM/GTX 1650/Windows 11)
+                    </p>
+                  </a>
+                  <div class="review_box">
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <span>3,014 reviews</span>
+                  </div>
+                  <div class="price_box">
+                    <strong>$32.50</strong>
+                    <span>$45</span>
+                  </div>
+                </div>
+                  </div>
+                  <div class="product_box">
+                <a href="./choosenProduct.html">
+                  <div
+                    class="product_image_box"
+                    style="
+                      background: url(../public/images/products/sony_laptop.png);
+                      background-size: cover;">
+                    <div class="hover_box">
+                      <button>Add to Cart</button>
+                    </div>
+                  </div>
+                </a>
+                <div class="product_content_box">
+                  <span class="product_title">Microsoft</span>
+                  <a href="">
+                    <p class="product_desc">
+                      Microsoft Surface Laptop Go 12.4" Multi-Touch - Intel Core i5, 8GB RAM, 128GB SSD, Windows 10 Home in S Mode - Certified Refurbished
+                    </p>
+                  </a>
+                  <div class="review_box">
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <span>3,014 reviews</span>
+                  </div>
+                  <div class="price_box">
+                    <strong>$32.50</strong>
+                    <span>$45</span>
+                  </div>
+                </div>
+                  </div>
+                  <div class="product_box">
+                <a href="./choosenProduct.html">
+                  <div
+                    class="product_image_box"
+                    style="
+                      background: url(../public/images/products/acer_silver.png);
+                      background-size: cover;">
+                    <div class="hover_box">
+                      <button>Add to Cart</button>
+                    </div>
+                  </div>
+                </a>
+                <div class="product_content_box">
+                  <span class="product_title">Acer</span>
+                  <a href="">
+                    <p class="product_desc">
+                      Acer Aspire 5 15.6" Laptop - Silver (Intel Core i5-1135G7/512GB SSD/8GB RAM/Windows 11)
+                    </p>
+                  </a>
+                  <div class="review_box">
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <span>3,014 reviews</span>
+                  </div>
+                  <div class="price_box">
+                    <strong>$32.50</strong>
+                    <span>$45</span>
+                  </div>
+                </div>
+                  </div>
+                  <div class="product_box">
+                <a href="./choosenProduct.html">
+                  <div
+                    class="product_image_box"
+                    style="
+                      background: url(../public/images/products/asus_laptop.png);
+                      background-size: cover;">
+                    <div class="hover_box">
+                      <button>Add to Cart</button>
+                    </div>
+                  </div>
+                </a>
+                <div class="product_content_box">
+                  <span class="product_title">Asus</span>
+                  <a href="">
+                    <p class="product_desc">
+                      ASUS VivoBook 15 X515 15.6" Laptop - Slate Grey (Intel Core i3-1005G1/256GB SSD/8GB RAM/Win 11 S)
+                    </p>
+                  </a>
+                  <div class="review_box">
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <span>3,014 reviews</span>
+                  </div>
+                  <div class="price_box">
+                    <strong>$32.50</strong>
+                    <span>$45</span>
+                  </div>
+                </div>
+                  </div>
+                  <div class="product_box">
+                <a href="./choosenProduct.html">
+                  <div
+                    class="product_image_box"
+                    style="
+                      background: url(../public/images/products/rolex_laptop.png);
+                      background-size: cover;">
+                    <div class="hover_box">
+                      <button>Add to Cart</button>
+                    </div>
+                  </div>
+                </a>
+                <div class="product_content_box">
+                  <span class="product_title">Asus</span>
+                  <a href="">
+                    <p class="product_desc">
+                      ASUS ROG Strix G15 15.6" Gaming Laptop (AMD Ryzen 7 4800H/512GB SSD/16GB RAM/GeForce RTX 3050/Win 11)
+                    </p>
+                  </a>
+                  <div class="review_box">
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <span>3,014 reviews</span>
+                  </div>
+                  <div class="price_box">
+                    <strong>$32.50</strong>
+                    <span>$45</span>
+                  </div>
+                </div>
+                  </div>
+                  <div class="product_box">
+                <a href="./choosenProduct.html">
+                  <div
+                    class="product_image_box"
+                    style="
+                      background: url(../public/images/products/acer_laptop.png);
+                      background-size: cover;">
+                    <div class="hover_box">
+                      <button>Add to Cart</button>
+                    </div>
+                  </div>
+                </a>
+                <div class="product_content_box">
+                  <span class="product_title">Acer</span>
+                  <a href="">
+                    <p class="product_desc">
+                      Acer Aspire 5 15.6" Laptop - Silver (Intel Core i7-1165G7/512GB SSD/12GB RAM/Windows 11)
+                    </p>
+                  </a>
+                  <div class="review_box">
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <span>3,014 reviews</span>
+                  </div>
+                  <div class="price_box">
+                    <strong>$32.50</strong>
+                    <span>$45</span>
+                  </div>
+                </div>
+                  </div>
+                  <div class="product_box">
+                <a href="./choosenProduct.html">
+                  <div
+                    class="product_image_box"
+                    style="
+                      background: url(../public/images/products/nitro_laptop.png);
+                      background-size: cover;">
+                    <div class="hover_box">
+                      <button>Add to Cart</button>
+                    </div>
+                  </div>
+                </a>
+                <div class="product_content_box">
+                  <span class="product_title">Acer</span>
+                  <a href="">
+                    <p class="product_desc">
+                      Acer Nitro 5 15.6" Gaming Laptop - Black (Intel Core i5-10300H/512GB SSD/12GB RAM/GTX 1650/Windows 11)
+                    </p>
+                  </a>
+                  <div class="review_box">
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <span>3,014 reviews</span>
+                  </div>
+                  <div class="price_box">
+                    <strong>$32.50</strong>
+                    <span>$45</span>
+                  </div>
+                </div>
+                  </div>
+                  <div class="product_box">
+                <a href="./choosenProduct.html">
+                  <div
+                    class="product_image_box"
+                    style="
+                      background: url(../public/images/products/sony_laptop.png);
+                      background-size: cover;">
+                    <div class="hover_box">
+                      <button>Add to Cart</button>
+                    </div>
+                  </div>
+                </a>
+                <div class="product_content_box">
+                  <span class="product_title">Microsoft</span>
+                  <a href="">
+                    <p class="product_desc">
+                      Microsoft Surface Laptop Go 12.4" Multi-Touch - Intel Core i5, 8GB RAM, 128GB SSD, Windows 10 Home in S Mode - Certified Refurbished
+                    </p>
+                  </a>
+                  <div class="review_box">
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <span>3,014 reviews</span>
+                  </div>
+                  <div class="price_box">
+                    <strong>$32.50</strong>
+                    <span>$45</span>
+                  </div>
+                </div>
+                  </div>
+                  <div class="product_box">
+                <a href="./choosenProduct.html">
+                  <div
+                    class="product_image_box"
+                    style="
+                      background: url(../public/images/products/acer_silver.png);
+                      background-size: cover;">
+                    <div class="hover_box">
+                      <button>Add to Cart</button>
+                    </div>
+                  </div>
+                </a>
+                <div class="product_content_box">
+                  <span class="product_title">Acer</span>
+                  <a href="">
+                    <p class="product_desc">
+                      Acer Aspire 5 15.6" Laptop - Silver (Intel Core i5-1135G7/512GB SSD/8GB RAM/Windows 11)
+                    </p>
+                  </a>
+                  <div class="review_box">
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <span>3,014 reviews</span>
+                  </div>
+                  <div class="price_box">
+                    <strong>$32.50</strong>
+                    <span>$45</span>
+                  </div>
+                </div>
+                  </div>
+                  <div class="product_box">
+                <a href="./choosenProduct.html">
+                  <div
+                    class="product_image_box"
+                    style="
+                      background: url(../public/images/products/asus_laptop.png);
+                      background-size: cover;">
+                    <div class="hover_box">
+                      <button>Add to Cart</button>
+                    </div>
+                  </div>
+                </a>
+                <div class="product_content_box">
+                  <span class="product_title">Asus</span>
+                  <a href="">
+                    <p class="product_desc">
+                      ASUS VivoBook 15 X515 15.6" Laptop - Slate Grey (Intel Core i3-1005G1/256GB SSD/8GB RAM/Win 11 S)
+                    </p>
+                  </a>
+                  <div class="review_box">
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <span>3,014 reviews</span>
+                  </div>
+                  <div class="price_box">
+                    <strong>$32.50</strong>
+                    <span>$45</span>
+                  </div>
+                </div>
+                  </div>
+                  <div class="product_box">
+                <a href="./choosenProduct.html">
+                  <div
+                    class="product_image_box"
+                    style="
+                      background: url(../public/images/products/rolex_laptop.png);
+                      background-size: cover;">
+                    <div class="hover_box">
+                      <button>Add to Cart</button>
+                    </div>
+                  </div>
+                </a>
+                <div class="product_content_box">
+                  <span class="product_title">Asus</span>
+                  <a href="">
+                    <p class="product_desc">
+                      ASUS ROG Strix G15 15.6" Gaming Laptop (AMD Ryzen 7 4800H/512GB SSD/16GB RAM/GeForce RTX 3050/Win 11)
+                    </p>
+                  </a>
+                  <div class="review_box">
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <span>3,014 reviews</span>
+                  </div>
+                  <div class="price_box">
+                    <strong>$32.50</strong>
+                    <span>$45</span>
+                  </div>
+                </div>
+                  </div>
+                  <div class="product_box">
+                <a href="./choosenProduct.html">
+                  <div
+                    class="product_image_box"
+                    style="
+                      background: url(../public/images/products/acer_laptop.png);
+                      background-size: cover;">
+                    <div class="hover_box">
+                      <button>Add to Cart</button>
+                    </div>
+                  </div>
+                </a>
+                <div class="product_content_box">
+                  <span class="product_title">Acer</span>
+                  <a href="">
+                    <p class="product_desc">
+                      Acer Aspire 5 15.6" Laptop - Silver (Intel Core i7-1165G7/512GB SSD/12GB RAM/Windows 11)
+                    </p>
+                  </a>
+                  <div class="review_box">
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <span>3,014 reviews</span>
+                  </div>
+                  <div class="price_box">
+                    <strong>$32.50</strong>
+                    <span>$45</span>
+                  </div>
+                </div>
+                  </div>
+                  <div class="product_box">
+                <a href="./choosenProduct.html">
+                  <div
+                    class="product_image_box"
+                    style="
+                      background: url(../public/images/products/nitro_laptop.png);
+                      background-size: cover;">
+                    <div class="hover_box">
+                      <button>Add to Cart</button>
+                    </div>
+                  </div>
+                </a>
+                <div class="product_content_box">
+                  <span class="product_title">Acer</span>
+                  <a href="">
+                    <p class="product_desc">
+                      Acer Nitro 5 15.6" Gaming Laptop - Black (Intel Core i5-10300H/512GB SSD/12GB RAM/GTX 1650/Windows 11)
+                    </p>
+                  </a>
+                  <div class="review_box">
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <img src="../public/images/icons/review.svg" alt="" />
+                    <span>3,014 reviews</span>
+                  </div>
+                  <div class="price_box">
+                    <strong>$32.50</strong>
+                    <span>$45</span>
+                  </div>
+                </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="pro_pagination_box">
+        <div class="next_prev_button">
+            <img src="../public/images/icons/next.svg" alt="">
+        </div>
+         <div class="number_box">1</div>
+         <div class="number_box active">2</div>
+         <div class="number_box">3</div>
+         <div class="number_box">4</div>
+         <div class="number_box">5</div>
+         <div class="number_box">...</div>
+         <div class="number_box">20</div>
+         <div class="next_prev_button">
+            <img style="transform: scale(-1);" src="../public/images/icons/next.svg" alt="">
+        </div>
+      </div>
+    <div class="footer_frame">
+      <div class="container">
+        <div class="footer_top">
+          <div class="footer_content_box">
+            <span class="footer_content_title">Contact Us</span>
+            <div class="footer_content_main">
+              <img src="../public/images/icons/phone-call.svg" alt="" />
+              <div class="footer_content_inner">
+                <strong>Monday-Friday: 08am-9pm</strong>
+                <span>+(1) 123 456 7890</span>
+              </div>
+            </div>
+            <div class="footer_content_main">
+              <img src="../public/images/icons/email.svg" alt="" />
+              <div class="footer_content_inner">
+                <strong>Need help with your order?</strong>
+                <span>support@zenmart.com</span>
+              </div>
+            </div>
+          </div>
+          <div class="footer_support_box">
+            <span class="footer_support_title">Costumer Support</span>
+            <div class="footer_support_content">
+              <a href="">Contact Us</a>
+              <a href="">Help Centre</a>
+              <a href="">Returns & Exchanges</a>
+              <a href="">Best Buy Financing</a>
+              <a href="">Best Buy Gift Card</a>
+            </div>
+          </div>
+          <div class="footer_support_box">
+            <span class="footer_support_title">Services</span>
+            <div class="footer_support_content">
+              <a href="">Geek Squad </a>
+              <a href="">In-Home Advisor</a>
+              <a href="">Trade-In Program</a>
+              <a href="">Electronics Recycling</a>
+              <a href="">Best Buy Health</a>
+            </div>
+          </div>
+          <div class="footer_link_box">
+            <span class="footer_content_title">Follow Us</span>
+            <div class="footer_social_icons">
+              <a href=""
+                ><i
+                  class="fa-brands fa-facebook-f"
+                  style="color: rgba(4, 30, 66, 1)"
+                ></i
+              ></a>
+              <a href=""
+                ><i
+                  class="fa-brands fa-twitter"
+                  style="color: rgba(4, 30, 66, 1)"
+                ></i
+              ></a>
+              <a href=""
+                ><i
+                  class="fa-brands fa-instagram"
+                  style="color: rgba(4, 30, 66, 1)"
+                ></i
+              ></a>
+              <a href=""
+                ><i
+                  class="fa-brands fa-linkedin-in"
+                  style="color: rgba(4, 30, 66, 1)"
+                ></i
+              ></a>
+            </div>
+
+            <div class="footer_mobile_box">
+              <span class="footer_mobile_title">Mobile Apps</span>
+              <div class="footer_mobile_main">
+                <i
+                  class="fa-brands fa-apple fa-lg"
+                  style="color: rgba(4, 30, 66, 1)"
+                ></i>
+                <div class="footer_content_inner">
+                  <span>iOS App </span>
+                </div>
+              </div>
+              <div class="footer_mobile_main">
+                <i
+                  class="fa-brands fa-google-play"
+                  style="color: rgba(4, 30, 66, 1)"
+                ></i>
+                <div class="footer_mobile_inner">
+                  <span>Android App</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer_payment_box">
+            <span>We Accept</span>
+            <div class="footer_payment_icons">
+              <a href="">
+                <img src="../public/images/icons/visa.png" alt="" />
+              </a>
+              <a href="">
+                <img src="../public/images/icons/master_card.png" alt="" />
+              </a>
+              <a href="">
+                <img src="../public/images/icons/apple_pay.png" alt="" />
+              </a>
+              <a href="">
+                <img src="../public/images/icons/dicvover.png" alt="" />
+              </a>
+              <a href="">
+                <img src="../public/images/icons/paypal.png" alt="" />
+              </a>
+              <a href="">
+                <img src="../public/images/icons/amex.png" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="footer_bottom">
+          <div class="footer_bottom_left">
+            <div class="footer_copytight">
+              <span>© 2022 Zenmart. All Rights Reserved</span>
+            </div>
+            <div class="footer_terms">
+              <a href=""><span>Privacy</span></a>
+              <div class="footer_dot"></div>
+              <a href=""><span>Terms</span></a>
+              <div class="footer_dot"></div>
+              <a href=""><span>Sitemap</span></a>
+            </div>
+          </div>
+
+          <div class="footer_select_boxes">
+            <div class="footer_select_box">
+              <span>Currency</span>
+              <select name="" id="">
+                <option value="">USD</option>
+                <option value="">UZS</option>
+                <option value="">KRW</option>
+              </select>
+            </div>
+            <div class="footer_select_box">
+              <span>Language</span>
+              <select name="" id="">
+                <option value="">English</option>
+                <option value="">Uzbek</option>
+                <option value="">Korean</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

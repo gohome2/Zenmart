@@ -49,60 +49,6 @@
   border-bottom: 2px solid #041e42;
 }
 
-/* PAGINATION */
-
-.container .pagination_box {
-  margin-top: 30px;
-  width: 100%;
-  height: auto;
-
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.container .pagination_box .pagination_main {
-  width: auto;
-  height: 24px;
-
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.pagination_main img {
-  cursor: pointer;
-}
-
-.container .pagination_main .pagination_dot {
-  margin: 0 20px;
-  display: flex;
-  flex-direction: row;
-}
-
-.container .pagination_dot .dot {
-  width: 20px;
-  height: 20px;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  box-sizing: border-box;
-  border-radius: 50%;
-}
-
-.container .pagination_dot .dot.active {
-  border: 2px solid rgba(17, 33, 55, 1);
-}
-
-.container .pagination_dot .dot div {
-  width: 4px;
-  height: 4px;
-  background: rgba(17, 33, 55, 1);
-  border-radius: 50%;
-}
-
 .container .hover_border {
   margin-top: 3px;
   width: 32px;
@@ -570,6 +516,7 @@
 .selling_product_frame .container .product_wrapper {
   position: relative;
   margin-top: 30px;
+  margin-bottom: 30px;
   width: 100%;
   height: auto;
 

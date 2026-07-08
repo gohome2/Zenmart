@@ -588,3 +588,88 @@ p {
   font-weight: 400;
   line-height: 40px;
 }
+
+/* PAGINATION */
+
+.container .pagination_box {
+  /* margin-top: 30px; */
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.container .pagination_box .pagination_main {
+  width: auto;
+  height: 24px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.container.pagination_main img {
+  cursor: pointer;
+}
+
+.container .pagination_main .pagination_dot {
+  margin: 0 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.container .pagination_dot .dot {
+  width: 20px;
+  height: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  box-sizing: border-box;
+  border-radius: 50%;
+}
+
+.container .pagination_dot .dot.active {
+  border: 2px solid rgba(17, 33, 55, 1);
+}
+
+.container .pagination_dot .dot div {
+  width: 4px;
+  height: 4px;
+  background: rgba(17, 33, 55, 1);
+  border-radius: 50%;
+}
+
+/*PAGE ROUTER */
+
+.page_router {
+  width: 1320px;
+  margin: 20px 0 20px 0;
+
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+}
+
+.page_router span {
+  margin-right: 10px;
+
+  color: rgba(4, 30, 66, 1);
+  font-family: var(--font);
+  font-style: Regular;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.page_router span:last-child {
+  color: #626974;
+  font-family: var(--font);
+  font-style: Regular;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+}
