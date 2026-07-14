@@ -644,8 +644,14 @@ p {
 }
 
 /*PAGE ROUTER */
-
 .page_router {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+}
+
+.page_router .container {
   width: 1320px;
   margin: 20px 0 20px 0;
 
@@ -654,7 +660,7 @@ p {
   align-items: start;
 }
 
-.page_router span {
+.page_router .container span {
   margin-right: 10px;
 
   color: rgba(4, 30, 66, 1);
@@ -665,7 +671,7 @@ p {
   line-height: 22px;
 }
 
-.page_router span:last-child {
+.page_router .container span:last-child {
   color: #626974;
   font-family: var(--font);
   font-style: Regular;
